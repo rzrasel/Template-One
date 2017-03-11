@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Template One</string>
+    <integer name="fab_anim_time">400</integer>
+</resources>

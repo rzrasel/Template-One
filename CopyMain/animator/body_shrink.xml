@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:interpolator="@android:interpolator/bounce"
+        android:propertyName="pathData"
+        android:startOffset="@integer/blinking_time"
+        android:valueFrom="@string/body"
+        android:valueTo="@string/body_shrunk"
+        android:valueType="pathType" />
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/android_green"
+        android:valueTo="@color/apple_black" />
+</set>

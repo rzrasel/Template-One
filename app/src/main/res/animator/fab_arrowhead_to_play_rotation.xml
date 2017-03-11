@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+        android:duration="@integer/fab_anim_time"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="rotation"
+        android:valueFrom="-180"
+        android:valueTo="-180" />
+    <objectAnimator
+        android:duration="@integer/fab_anim_time"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="rotation"
+        android:valueFrom="-180"
+        android:valueTo="-360" />
+</set>
